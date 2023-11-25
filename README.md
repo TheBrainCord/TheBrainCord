@@ -1,4 +1,4 @@
-# 👋 Hello, I'm [TheBrainCord]!
+# 👋 Hello, I'm TheBrainCord!
 
 I'm a passionate software developer and the founder of [TheBrainCord](https://www.thebraincord.com), a startup dedicated to providing innovative software solutions. My journey in the tech world began with a fascination for website development, and over the years, I've honed my skills in crafting digital experiences.
 
