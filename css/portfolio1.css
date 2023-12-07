@@ -1,0 +1,128 @@
+/* Box Shadow Animation */
+/* .bg_color_change {
+    transition: box-shadow 0.3s ease-in-out;
+ }
+ 
+ .bg_color_change:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+ }
+  */
+
+.hash-tag {
+    color: #0cfc05;
+    /* color: #05e5fa; */
+    text-align: center;
+}
+
+.box-bottom {
+    text-align: center;
+}
+
+.animate_section:hover {
+    transform: translateY(-5px);
+ }
+ 
+ .animate_section {
+    transition: box-shadow 0.3s ease-in-out;
+ }
+ 
+ .animate_section:hover {
+    box-shadow: 0 0 20px #0cfc05;
+ }
+
+ .animate_section .box-bottom .like {
+    color: #0a7509;
+ }
+
+ .animate_section .box-bottom .dislike {
+    color: #6f0918;
+ }
+
+ .animate_section .box-bottom .improvement {
+    color: #923ce8;
+ }
+
+ 
+/* Portfolio Boxes And Right Hand*/
+
+.content_section,
+.animate_section {
+    padding: 5%;
+    overflow: hidden;
+}
+
+.portfolio-box {
+    color: #af9fb9;
+    font-weight: bold;
+}
+
+.right_hand{
+    color: #af9fb9;
+    font-weight: bold;
+    text-align: center;
+}
+ 
+.portfolio-box .highlight {
+    text-align: center;
+    color: #7c4fa8;
+    font-weight: bold;
+}
+
+
+.right_hand i {
+    color: #923ce8;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .right_hand:hover i {
+    transform: rotate(360deg);
+  }
+
+  /* .animate_section a {
+    color: rgb(34, 2, 66);
+    background-color: #923ce8;
+  } */
+
+  .animate_section_hr {   
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #923ce8;
+  }
+
+  .span_portfolio_head {
+    color: #923ce8;
+  }
+
+
+  /* Game */
+  #pop-game-container {
+    width: 100%;
+    height: 300px; /* Adjust the height as needed */
+}
+
+#playButton {
+    font-size: 50px; /* Adjust the font size as needed */
+    color: #923ce8; /* Adjust the color as needed */
+}
+
+
+.pop-ball {
+    width: 30px;
+    height: 30px;
+    background-color: #923ce8; /* Use your preferred color */
+    border-radius: 50%;
+    position: absolute;
+    animation: bounce 2s infinite alternate; /* Adjust the animation duration as needed */
+    cursor: pointer;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(150px);
+    }
+    to {
+        transform: translateY(0); /* Adjust the bounce height as needed */
+    }
+}
+  
